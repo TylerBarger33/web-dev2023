@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>The History of 20th Century Music</h1>
+<p>This will be the timeline paragraph.</p>
+
+</body>
+</html>
+
+
