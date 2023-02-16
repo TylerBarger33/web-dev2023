@@ -1,14 +1,16 @@
 body {
     background-color: lightgrey;
+    background-image:url(https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg);
+    box-sizing: border-box;
+    color: white;
   }
-
   img {
-    width: 60%;
+    width: 50%;
     height: auto;
   }
 
   div {
-    border: solid black;
+    border: solid grey;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -18,22 +20,28 @@ body {
     margin-right: 10px;
     margin-left: 10px;
   }
+
+  .headline {
+    background-image:url(https://case.edu/ech/sites/case.edu.ech/files/styles/media_crop/public/2018-05/R01.jpg?itok=x8qnY0o9);
+    background-size: cover;
+    background-position: center;
+     
+    background-repeat: no-repeat; 
+  }
+
   .column {
     float: left;
-    width: 55%;
+    width: 40%;
+   
   }
 
   .column2 {
-    float: right;
-    width: 30%;
+   float: right;
+    width: 40%;
   }
   
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
+  
+ 
   
 
 
