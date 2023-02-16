@@ -3,13 +3,21 @@ body {
     background-image:url(https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg);
     box-sizing: border-box;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
   }
+/*This sets my formatting for the whole page, including background, text color, and font type. */
+ 
+
   img {
     width: 50%;
     height: auto;
+    
   }
+/*This sets the formatting for how images will appear throughout my webpage*/
 
-  div {
+
+  div { 
+    
     border: solid grey;
     padding-top: 10px;
     padding-right: 10px;
@@ -20,27 +28,36 @@ body {
     margin-right: 10px;
     margin-left: 10px;
   }
+/*This is how my divisions will be displayed across the whole page*/
+ 
 
   .headline {
     background-image:url(https://case.edu/ech/sites/case.edu.ech/files/styles/media_crop/public/2018-05/R01.jpg?itok=x8qnY0o9);
     background-size: cover;
     background-position: center;
-     
+      
     background-repeat: no-repeat; 
+   
   }
+/*this makes my title appear different than other sections of the webpage as well as having an image in the background*/
+
 
   .column {
+    
     float: left;
     width: 40%;
    
   }
+/*This creates a divide in the center of my main info*/
+
 
   .column2 {
+  
    float: right;
     width: 40%;
   }
   
-  
+/*This creates a side bar for links*/ 
  
   
 
