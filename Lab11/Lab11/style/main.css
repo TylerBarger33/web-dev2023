@@ -1,0 +1,66 @@
+@media screen and (max-width: 800px) {
+  /*grid 1 col*/
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: grey;
+    padding: 10px;
+    grid-gap: 10px;
+  }
+}
+@media screen and (min-width: 801px) {
+  /*grid 2 col*/
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: red;
+    padding: 10px;
+    grid-gap: 10px;
+  }
+}
+@media screen and (min-width: 1001px) {
+  /*grid 3 col*/
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: beige;
+    padding: 10px;
+    grid-gap: 10px;
+  }
+}
+/*grid item format*/
+.grid-item {
+  background-color: grey;
+  border: 1px solid black;
+}
+
+/*font*/
+p {
+  font-family: "Roboto";
+  font-size: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  p {
+    color: purple;
+  }
+  body {
+    background-color: black;
+  }
+}
+@media screen and (min-width: 801px) {
+  p {
+    color: orange;
+  }
+  body {
+    background-color: rgb(31, 31, 31);
+  }
+}
+@media screen and (min-width: 1001px) {
+  p {
+    color: aquamarine;
+  }
+  body {
+    background-color: rgb(62, 62, 62);
+  }
+}/*# sourceMappingURL=main.css.map */

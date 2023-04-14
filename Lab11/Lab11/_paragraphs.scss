@@ -1,0 +1,31 @@
+
+@media screen and (max-width: 800px) {
+    p {
+        color: purple;
+    }
+    body{
+        background-color: black;
+    }
+
+}
+
+
+@media screen and (min-width: 801px) {
+p {
+    color: orange;
+}
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+}
+
+
+@media screen and (min-width: 1001px) {
+p {
+    color: $fontcolpg;
+}
+body{
+    background-color: rgb(62, 62, 62);
+}
+}
