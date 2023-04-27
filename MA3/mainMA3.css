@@ -1,0 +1,223 @@
+@media screen and (max-width: 800px) {
+  /*grid 1 col*/
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: grey;
+    padding: 10px;
+    grid-gap: 10px;
+  }
+}
+@media screen and (min-width: 801px) {
+  /*grid 2 col*/
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: grey;
+    padding: 10px;
+    grid-gap: 10px;
+  }
+}
+@media screen and (min-width: 1001px) {
+  /*grid 3 col*/
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    grid-gap: 10px;
+  }
+}
+/*grid item format*/
+.grid-item {
+  background-color: grey;
+  border: 1px solid black;
+}
+
+/*font*/
+p {
+  font-family: "Roboto";
+  font-size: 40px;
+}
+
+img {
+  display: flex;
+  border: solid rgb(0, 0, 0);
+  width: 50%;
+  height: auto;
+  /* This is a my image default */
+}
+
+.Slides {
+  display: flex;
+  border: solid rgb(0, 0, 0);
+  width: 50%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  border: solid rgb(0, 0, 0);
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+  background-color: rgba(131, 131, 131, 0.638);
+  height: 400px;
+  width: auto;
+  overflow: hidden;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  border: solid rgb(0, 0, 0);
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+  background-color: rgba(131, 131, 131, 0.638);
+  /* This is my formatting for the main header */
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    /* formatting the background for desktop */
+    background-image: url(https://i.pinimg.com/originals/81/1b/af/811baf330e696f95b95d17858fa5b864.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body {
+    /* formatting the background for tablet */
+    background-image: url(https://i.pinimg.com/564x/82/00/22/820022689b96bf7366ec0c82e4727647.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    /* formatting the background for mobile*/
+    background-image: url(https://i.pinimg.com/564x/e5/1e/12/e51e1228c5222113bee5999a717a5f4c.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}
+@media only screen and (max-width: 600px) {
+  div {
+    /* setting up gridded colums for mobile */
+    border: solid rgb(139, 107, 0);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(131, 131, 131, 0.638);
+    -moz-column-count: unset;
+         column-count: unset;
+  }
+}
+@media only screen and (min-width: 600px) {
+  div {
+    /* setting up gridded column for tablet */
+    border: solid rgb(252, 224, 135);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(131, 131, 131, 0.638);
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 35px;
+         column-gap: 35px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  div {
+    /* setting up gridded column for desktop */
+    border: solid rgb(185, 154, 0);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(131, 131, 131, 0.638);
+    -moz-column-count: 3;
+         column-count: 3;
+    -moz-column-gap: 35px;
+         column-gap: 35px;
+  }
+}
+h2 {
+  /* setting up default borders*/
+  color: white;
+  text-align: center;
+  border: dotted rgb(0, 0, 0);
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+  margin-left: 6px;
+  background-color: rgba(131, 131, 131, 0.638);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+  h2 {
+    /* setting up borders for mobile*/
+    color: white;
+    text-align: center;
+    border: dotted rgb(219, 150, 0);
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    margin-left: 6px;
+    background-color: rgba(131, 131, 131, 0.638);
+  }
+}
+p {
+  /* setting up default font styles*/
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}/*# sourceMappingURL=mainMA3.css.map */
